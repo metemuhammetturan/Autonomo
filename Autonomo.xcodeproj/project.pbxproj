@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922552632C568CFA00728673 /* Rotalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225525E2C568CF900728673 /* Rotalar.swift */; };
+		922552642C568CFA00728673 /* Ana Sayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225525F2C568CF900728673 /* Ana Sayfa.swift */; };
+		922552652C568CFA00728673 /* Çalışanlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552602C568CF900728673 /* Çalışanlar.swift */; };
+		922552662C568CFA00728673 /* Raporlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552612C568CFA00728673 /* Raporlar.swift */; };
+		922552672C568CFA00728673 /* Araçlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552622C568CFA00728673 /* Araçlar.swift */; };
+		922552722C568DA000728673 /* Butonlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526E2C568DA000728673 /* Butonlar.swift */; };
+		922552732C568DA000728673 /* Genel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526F2C568DA000728673 /* Genel.swift */; };
+		922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552702C568DA000728673 /* Yazı Tipleri.swift */; };
 		92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */; };
-		92ADA99E2C5689F6004F3384 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99D2C5689F6004F3384 /* ContentView.swift */; };
+		92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99D2C5689F6004F3384 /* MainTabView.swift */; };
 		92ADA9A02C5689F8004F3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ADA99F2C5689F8004F3384 /* Assets.xcassets */; };
 		92ADA9A32C5689F8004F3384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ADA9A22C5689F8004F3384 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9225525E2C568CF900728673 /* Rotalar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotalar.swift; sourceTree = "<group>"; };
+		9225525F2C568CF900728673 /* Ana Sayfa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ana Sayfa.swift"; sourceTree = "<group>"; };
+		922552602C568CF900728673 /* Çalışanlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Çalışanlar.swift"; sourceTree = "<group>"; };
+		922552612C568CFA00728673 /* Raporlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raporlar.swift; sourceTree = "<group>"; };
+		922552622C568CFA00728673 /* Araçlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Araçlar.swift"; sourceTree = "<group>"; };
+		9225526E2C568DA000728673 /* Butonlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Butonlar.swift; sourceTree = "<group>"; };
+		9225526F2C568DA000728673 /* Genel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genel.swift; sourceTree = "<group>"; };
+		922552702C568DA000728673 /* Yazı Tipleri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Yazı Tipleri.swift"; sourceTree = "<group>"; };
 		92ADA9982C5689F6004F3384 /* Autonomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autonomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomoApp.swift; sourceTree = "<group>"; };
-		92ADA99D2C5689F6004F3384 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92ADA99D2C5689F6004F3384 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		92ADA99F2C5689F8004F3384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ADA9A22C5689F8004F3384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +48,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		922552682C568D2600728673 /* Ana Sayfa */ = {
+			isa = PBXGroup;
+			children = (
+				9225525F2C568CF900728673 /* Ana Sayfa.swift */,
+			);
+			path = "Ana Sayfa";
+			sourceTree = "<group>";
+		};
+		922552692C568D3200728673 /* Araçlar */ = {
+			isa = PBXGroup;
+			children = (
+				922552622C568CFA00728673 /* Araçlar.swift */,
+			);
+			name = "Araçlar";
+			path = "Araçlar";
+			sourceTree = "<group>";
+		};
+		9225526A2C568D3900728673 /* Çalışanlar */ = {
+			isa = PBXGroup;
+			children = (
+				922552602C568CF900728673 /* Çalışanlar.swift */,
+			);
+			name = "Çalışanlar";
+			path = "Çalışanlar";
+			sourceTree = "<group>";
+		};
+		9225526B2C568D3E00728673 /* Raporlar */ = {
+			isa = PBXGroup;
+			children = (
+				922552612C568CFA00728673 /* Raporlar.swift */,
+			);
+			path = Raporlar;
+			sourceTree = "<group>";
+		};
+		9225526C2C568D4200728673 /* Rotalar */ = {
+			isa = PBXGroup;
+			children = (
+				9225525E2C568CF900728673 /* Rotalar.swift */,
+			);
+			path = Rotalar;
+			sourceTree = "<group>";
+		};
+		922552712C568DA000728673 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				9225526E2C568DA000728673 /* Butonlar.swift */,
+				9225526F2C568DA000728673 /* Genel.swift */,
+				922552702C568DA000728673 /* Yazı Tipleri.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
 		92ADA98F2C5689F6004F3384 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +119,12 @@
 		92ADA99A2C5689F6004F3384 /* Autonomo */ = {
 			isa = PBXGroup;
 			children = (
-				92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */,
-				92ADA99D2C5689F6004F3384 /* ContentView.swift */,
-				92ADA99F2C5689F8004F3384 /* Assets.xcassets */,
+				92ADA9A92C568A28004F3384 /* App */,
+				922552712C568DA000728673 /* Set */,
+				92ADA9AD2C568A5D004F3384 /* Service */,
+				92ADA9AC2C568A51004F3384 /* Model */,
+				92ADA9AB2C568A4C004F3384 /* Extensions */,
+				92ADA9AA2C568A35004F3384 /* Core */,
 				92ADA9A12C5689F8004F3384 /* Preview Content */,
 			);
 			path = Autonomo;
@@ -65,6 +136,97 @@
 				92ADA9A22C5689F8004F3384 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92ADA9A92C568A28004F3384 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */,
+				92ADA99F2C5689F8004F3384 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		92ADA9AA2C568A35004F3384 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				92ADA9AF2C568A92004F3384 /* TabBar */,
+				922552682C568D2600728673 /* Ana Sayfa */,
+				922552692C568D3200728673 /* Araçlar */,
+				9225526A2C568D3900728673 /* Çalışanlar */,
+				9225526C2C568D4200728673 /* Rotalar */,
+				9225526B2C568D3E00728673 /* Raporlar */,
+				92ADA9B32C568AB1004F3384 /* Authentication */,
+				92ADA9B22C568AA7004F3384 /* Feed */,
+				92ADA9B12C568AA0004F3384 /* Profile */,
+				92ADA9B02C568A98004F3384 /* Search */,
+				92ADA9AE2C568A8D004F3384 /* UploadPost */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		92ADA9AB2C568A4C004F3384 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		92ADA9AC2C568A51004F3384 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92ADA9AD2C568A5D004F3384 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		92ADA9AE2C568A8D004F3384 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		92ADA9AF2C568A92004F3384 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				92ADA99D2C5689F6004F3384 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		92ADA9B02C568A98004F3384 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		92ADA9B12C568AA0004F3384 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		92ADA9B22C568AA7004F3384 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		92ADA9B32C568AB1004F3384 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ADA99E2C5689F6004F3384 /* ContentView.swift in Sources */,
+				922552722C568DA000728673 /* Butonlar.swift in Sources */,
+				922552652C568CFA00728673 /* Çalışanlar.swift in Sources */,
+				922552732C568DA000728673 /* Genel.swift in Sources */,
+				92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */,
+				922552632C568CFA00728673 /* Rotalar.swift in Sources */,
+				922552642C568CFA00728673 /* Ana Sayfa.swift in Sources */,
+				922552672C568CFA00728673 /* Araçlar.swift in Sources */,
+				922552662C568CFA00728673 /* Raporlar.swift in Sources */,
 				92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */,
+				922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.metemuhammetturan.Autonomo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metemuhammetturan.Autonom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.metemuhammetturan.Autonomo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metemuhammetturan.Autonom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
