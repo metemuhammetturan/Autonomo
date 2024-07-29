@@ -15,6 +15,9 @@
 		922552722C568DA000728673 /* Butonlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526E2C568DA000728673 /* Butonlar.swift */; };
 		922552732C568DA000728673 /* Genel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526F2C568DA000728673 /* Genel.swift */; };
 		922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552702C568DA000728673 /* Yazı Tipleri.swift */; };
+		9294D2CC2C57BC4600DEA119 /* KısayollarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */; };
+		9294D2D02C57DEE000DEA119 /* AracEkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */; };
+		9294D2D22C57E78200DEA119 /* Arac Detayi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2D12C57E78100DEA119 /* Arac Detayi.swift */; };
 		92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */; };
 		92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99D2C5689F6004F3384 /* MainTabView.swift */; };
 		92ADA9A02C5689F8004F3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ADA99F2C5689F8004F3384 /* Assets.xcassets */; };
@@ -30,6 +33,9 @@
 		9225526E2C568DA000728673 /* Butonlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Butonlar.swift; sourceTree = "<group>"; };
 		9225526F2C568DA000728673 /* Genel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genel.swift; sourceTree = "<group>"; };
 		922552702C568DA000728673 /* Yazı Tipleri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Yazı Tipleri.swift"; sourceTree = "<group>"; };
+		9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KısayollarSheet.swift"; sourceTree = "<group>"; };
+		9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AracEkle.swift; sourceTree = "<group>"; };
+		9294D2D12C57E78100DEA119 /* Arac Detayi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arac Detayi.swift"; sourceTree = "<group>"; };
 		92ADA9982C5689F6004F3384 /* Autonomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autonomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomoApp.swift; sourceTree = "<group>"; };
 		92ADA99D2C5689F6004F3384 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9225525F2C568CF900728673 /* Ana Sayfa.swift */,
+				9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */,
 			);
 			path = "Ana Sayfa";
 			sourceTree = "<group>";
@@ -60,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				922552622C568CFA00728673 /* Araçlar.swift */,
+				9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */,
+				9294D2D12C57E78100DEA119 /* Arac Detayi.swift */,
 			);
 			name = "Araçlar";
 			path = "Araçlar";
@@ -300,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922552722C568DA000728673 /* Butonlar.swift in Sources */,
+				9294D2D02C57DEE000DEA119 /* AracEkle.swift in Sources */,
 				922552652C568CFA00728673 /* Çalışanlar.swift in Sources */,
 				922552732C568DA000728673 /* Genel.swift in Sources */,
 				92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */,
@@ -307,6 +317,8 @@
 				922552642C568CFA00728673 /* Ana Sayfa.swift in Sources */,
 				922552672C568CFA00728673 /* Araçlar.swift in Sources */,
 				922552662C568CFA00728673 /* Raporlar.swift in Sources */,
+				9294D2CC2C57BC4600DEA119 /* KısayollarSheet.swift in Sources */,
+				9294D2D22C57E78200DEA119 /* Arac Detayi.swift in Sources */,
 				92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */,
 				922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */,
 			);
@@ -448,8 +460,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,8 +489,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
