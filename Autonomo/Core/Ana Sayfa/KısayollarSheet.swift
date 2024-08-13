@@ -15,11 +15,31 @@ struct KisayollarSheet: View {
         NavigationStack {
             VStack(alignment: .leading){
                 
-                KisayollarComponents(title: "İşlem Ekle", action: "", image: "plus.circle")
+                KisayollarComponents(title: "İşlem Ekle", destination: AnyView(IslemEkle()), image: "plus.circle")
+                    .presentationDetents([.large])
                 
-                KisayollarComponents(title: "Çalışan Ekle", action: "", image: "person.crop.circle")
+                Divider()
+                    .background(Color.primary)
+                    .frame(height: 2)
                 
-                KisayollarComponents(title: "Rota Ekle", action: "", image: "mappin.circle")
+                KisayollarComponents(title: "Araç Ekle", destination: AnyView(AracEkle()), image: "bus")
+                
+                Divider()
+                    .background(Color.primary)
+                    .frame(height: 2)
+                
+                KisayollarComponents(title: "Çalışan Ekle", destination: AnyView(Text("Çalışan Ekle View")), image: "person.crop.circle")
+                
+                Divider()
+                    .background(Color.primary)
+                    .frame(height: 2)
+                
+                KisayollarComponents(title: "Rota Ekle", destination: AnyView(Text("Rota Ekle View")), image: "mappin.circle")
+                
+                
+                Divider()
+                    .background(Color.primary)
+                    .frame(height: 2)
                 
                 Spacer()
                 
@@ -45,40 +65,35 @@ struct KisayollarSheet: View {
             .padding(.horizontal)
         }
     }
-        
 }
-
 
 struct KisayollarComponents: View {
     
     let title: String
-    let action: String
+    let destination: AnyView
     let image: String
     
     var body: some View {
-            Button(action: {
-                action
-            }, label: {
-                
+        NavigationLink(destination: destination) {
+            HStack {
                 Image(systemName: image)
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(.primary)
                     .padding(.trailing, 5)
+                    .frame(width: 16, height: 16)
                 
                 Text(title)
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(.primary)
-            })
-            .frame(height: 50)
-        
-            Divider()
-            .background(Color.primary)
-            .frame(height: 2)
+                    .padding(.leading)
+            }
+        }
+        .frame(height: 50)
     }
 }
 
 #Preview {
-    AnaSayfa()
+    KisayollarSheet()
 }

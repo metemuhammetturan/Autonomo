@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AutonomoApp: App {
+    
+    @Environment(\.colorScheme) var colorScheme: ColorScheme
+    
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .preferredColorScheme(.dark)
         }
     }
 }

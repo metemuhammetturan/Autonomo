@@ -15,13 +15,20 @@
 		922552722C568DA000728673 /* Butonlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526E2C568DA000728673 /* Butonlar.swift */; };
 		922552732C568DA000728673 /* Genel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526F2C568DA000728673 /* Genel.swift */; };
 		922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552702C568DA000728673 /* Yazı Tipleri.swift */; };
-		9294D2CC2C57BC4600DEA119 /* KısayollarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */; };
 		9294D2D02C57DEE000DEA119 /* AracEkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */; };
 		9294D2D22C57E78200DEA119 /* Arac Detayi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2D12C57E78100DEA119 /* Arac Detayi.swift */; };
+		9294D2D42C584AF400DEA119 /* KısayollarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2D32C584AF400DEA119 /* KısayollarSheet.swift */; };
+		9294D2D62C584C6C00DEA119 /* AracDetayGenelBilgiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2D52C584C6C00DEA119 /* AracDetayGenelBilgiler.swift */; };
+		9294D2DB2C5910CF00DEA119 /* AracDetayIslemler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2DA2C5910CF00DEA119 /* AracDetayIslemler.swift */; };
+		9294D2DD2C5916E600DEA119 /* IslemDetayEkranı.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2DC2C5916E600DEA119 /* IslemDetayEkranı.swift */; };
+		9294D2DF2C59181E00DEA119 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2DE2C59181E00DEA119 /* Components.swift */; };
+		9294D2E32C593ADA00DEA119 /* AracRaporlari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9294D2E22C593ADA00DEA119 /* AracRaporlari.swift */; };
 		92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */; };
 		92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ADA99D2C5689F6004F3384 /* MainTabView.swift */; };
 		92ADA9A02C5689F8004F3384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ADA99F2C5689F8004F3384 /* Assets.xcassets */; };
 		92ADA9A32C5689F8004F3384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ADA9A22C5689F8004F3384 /* Preview Assets.xcassets */; };
+		92FF3DED2C6B6DA800A2CBA7 /* AracDetaySonTarihler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF3DEC2C6B6DA800A2CBA7 /* AracDetaySonTarihler.swift */; };
+		92FF3DEF2C6B81DB00A2CBA7 /* IslemEkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF3DEE2C6B81DB00A2CBA7 /* IslemEkle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,14 +40,21 @@
 		9225526E2C568DA000728673 /* Butonlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Butonlar.swift; sourceTree = "<group>"; };
 		9225526F2C568DA000728673 /* Genel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genel.swift; sourceTree = "<group>"; };
 		922552702C568DA000728673 /* Yazı Tipleri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Yazı Tipleri.swift"; sourceTree = "<group>"; };
-		9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KısayollarSheet.swift"; sourceTree = "<group>"; };
 		9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AracEkle.swift; sourceTree = "<group>"; };
 		9294D2D12C57E78100DEA119 /* Arac Detayi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arac Detayi.swift"; sourceTree = "<group>"; };
+		9294D2D32C584AF400DEA119 /* KısayollarSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KısayollarSheet.swift"; sourceTree = "<group>"; };
+		9294D2D52C584C6C00DEA119 /* AracDetayGenelBilgiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracDetayGenelBilgiler.swift; sourceTree = "<group>"; };
+		9294D2DA2C5910CF00DEA119 /* AracDetayIslemler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracDetayIslemler.swift; sourceTree = "<group>"; };
+		9294D2DC2C5916E600DEA119 /* IslemDetayEkranı.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IslemDetayEkranı.swift"; sourceTree = "<group>"; };
+		9294D2DE2C59181E00DEA119 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		9294D2E22C593ADA00DEA119 /* AracRaporlari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracRaporlari.swift; sourceTree = "<group>"; };
 		92ADA9982C5689F6004F3384 /* Autonomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autonomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ADA99B2C5689F6004F3384 /* AutonomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomoApp.swift; sourceTree = "<group>"; };
 		92ADA99D2C5689F6004F3384 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		92ADA99F2C5689F8004F3384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ADA9A22C5689F8004F3384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92FF3DEC2C6B6DA800A2CBA7 /* AracDetaySonTarihler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracDetaySonTarihler.swift; sourceTree = "<group>"; };
+		92FF3DEE2C6B81DB00A2CBA7 /* IslemEkle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslemEkle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9225525F2C568CF900728673 /* Ana Sayfa.swift */,
-				9294D2CB2C57BC4600DEA119 /* KısayollarSheet.swift */,
+				9294D2D32C584AF400DEA119 /* KısayollarSheet.swift */,
 			);
 			path = "Ana Sayfa";
 			sourceTree = "<group>";
@@ -69,6 +83,12 @@
 				922552622C568CFA00728673 /* Araçlar.swift */,
 				9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */,
 				9294D2D12C57E78100DEA119 /* Arac Detayi.swift */,
+				9294D2D52C584C6C00DEA119 /* AracDetayGenelBilgiler.swift */,
+				92FF3DEC2C6B6DA800A2CBA7 /* AracDetaySonTarihler.swift */,
+				9294D2DA2C5910CF00DEA119 /* AracDetayIslemler.swift */,
+				9294D2DC2C5916E600DEA119 /* IslemDetayEkranı.swift */,
+				9294D2E22C593ADA00DEA119 /* AracRaporlari.swift */,
+				92FF3DEE2C6B81DB00A2CBA7 /* IslemEkle.swift */,
 			);
 			name = "Araçlar";
 			path = "Araçlar";
@@ -159,6 +179,7 @@
 		92ADA9AA2C568A35004F3384 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9294D2DE2C59181E00DEA119 /* Components.swift */,
 				92ADA9AF2C568A92004F3384 /* TabBar */,
 				922552682C568D2600728673 /* Ana Sayfa */,
 				922552692C568D3200728673 /* Araçlar */,
@@ -169,7 +190,6 @@
 				92ADA9B22C568AA7004F3384 /* Feed */,
 				92ADA9B12C568AA0004F3384 /* Profile */,
 				92ADA9B02C568A98004F3384 /* Search */,
-				92ADA9AE2C568A8D004F3384 /* UploadPost */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -193,13 +213,6 @@
 			children = (
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		92ADA9AE2C568A8D004F3384 /* UploadPost */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UploadPost;
 			sourceTree = "<group>";
 		};
 		92ADA9AF2C568A92004F3384 /* TabBar */ = {
@@ -308,19 +321,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9294D2D42C584AF400DEA119 /* KısayollarSheet.swift in Sources */,
 				922552722C568DA000728673 /* Butonlar.swift in Sources */,
+				9294D2D62C584C6C00DEA119 /* AracDetayGenelBilgiler.swift in Sources */,
+				92FF3DED2C6B6DA800A2CBA7 /* AracDetaySonTarihler.swift in Sources */,
 				9294D2D02C57DEE000DEA119 /* AracEkle.swift in Sources */,
+				9294D2DD2C5916E600DEA119 /* IslemDetayEkranı.swift in Sources */,
 				922552652C568CFA00728673 /* Çalışanlar.swift in Sources */,
 				922552732C568DA000728673 /* Genel.swift in Sources */,
 				92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */,
 				922552632C568CFA00728673 /* Rotalar.swift in Sources */,
 				922552642C568CFA00728673 /* Ana Sayfa.swift in Sources */,
 				922552672C568CFA00728673 /* Araçlar.swift in Sources */,
+				9294D2DB2C5910CF00DEA119 /* AracDetayIslemler.swift in Sources */,
+				92FF3DEF2C6B81DB00A2CBA7 /* IslemEkle.swift in Sources */,
 				922552662C568CFA00728673 /* Raporlar.swift in Sources */,
-				9294D2CC2C57BC4600DEA119 /* KısayollarSheet.swift in Sources */,
 				9294D2D22C57E78200DEA119 /* Arac Detayi.swift in Sources */,
 				92ADA99C2C5689F6004F3384 /* AutonomoApp.swift in Sources */,
 				922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */,
+				9294D2DF2C59181E00DEA119 /* Components.swift in Sources */,
+				9294D2E32C593ADA00DEA119 /* AracRaporlari.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

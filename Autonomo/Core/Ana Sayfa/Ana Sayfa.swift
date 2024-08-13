@@ -13,7 +13,6 @@ struct AnaSayfa: View {
     
     var body: some View {
         NavigationStack {
-            ZStack{
                 VStack(alignment: .leading, spacing: 5){
                     
                     
@@ -145,12 +144,9 @@ struct AnaSayfa: View {
                 .toolbar{
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: {
-                            isAddNewStaffActive = true
+
                         }, label: {
-                            Text("Ana Sayfa")
-                                .foregroundColor(.primary)
-                                .fontWeight(.bold)
-                                .font(.title)
+                            TabBarSayfalariBaslik(title: "Ana Sayfa")
                         })
                     }
                     
@@ -167,9 +163,9 @@ struct AnaSayfa: View {
                 }
                 .sheet(isPresented: $isAddNewStaffActive, content: {
                     KisayollarSheet()
-                        .presentationDetents([.medium])
+                        .presentationDetents([.medium,.large])
                 })
-            }
+            
         }
     }
 }

@@ -12,11 +12,33 @@ import SwiftUI
 
 struct ArkaPlan: View {
     var body: some View {
-        LinearGradient(
-            gradient: Gradient(colors: [Color.ucunculRenk, Color.ucunculRenk.opacity(0.8), Color.birincilRenk]),
-            startPoint: .topLeading,
-            endPoint: .bottomTrailing
-        )
-        .edgesIgnoringSafeArea(.all)
+        Color(.ikincilRenk)
+            .edgesIgnoringSafeArea(.all)
+            .ignoresSafeArea()
     }
 }
+
+
+/*
+ 
+ Yakıt: fuelpump
+ Sigorta: doc.text
+ Muayene: doc.text.image
+ Bakım: wrench.and.screwdriver
+ Arıza: screwdriver
+ Gider: turkishlirasign
+ 
+ 
+ */
+
+
+
+
+/*
+LinearGradient(
+    gradient: Gradient(colors: [Color.ucunculRenk, Color.ucunculRenk.opacity(0.8), Color.birincilRenk]),
+    startPoint: .topLeading,
+    endPoint: .bottomTrailing
+)
+
+*/
