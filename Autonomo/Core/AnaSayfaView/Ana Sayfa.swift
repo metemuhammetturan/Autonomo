@@ -55,7 +55,7 @@ struct AnaSayfa: View {
                                         Text("Araçlarınıza ait son 5 işlem")
                                             .font(.title2)
                                             .fontWeight(.heavy)
-                                            .foregroundColor(.primary)
+                                            .foregroundColor(.birincilRenk)
                                             .opacity(0.9)
                                     }
                                     
@@ -115,7 +115,7 @@ struct AnaSayfa: View {
                                         Text("Toplam Yakıt Giderleri")
                                             .font(.title2)
                                             .fontWeight(.heavy)
-                                            .foregroundColor(.primary)
+                                            .foregroundColor(.birincilRenk)
                                             .opacity(0.9)
                                     }
                                     
@@ -146,7 +146,7 @@ struct AnaSayfa: View {
                         Button(action: {
 
                         }, label: {
-                            TabBarSayfalariBaslik(title: "Ana Sayfa")
+                            NavigationBarBaslik(title: "Ana Sayfa")
                         })
                     }
                     
@@ -155,9 +155,18 @@ struct AnaSayfa: View {
                             isAddNewStaffActive = true
                         }, label: {
                             Image(systemName: "plus.circle")
-                                .foregroundColor(.primary)
-                                .font(.title3)
-                                .bold()
+                                .foregroundColor(.secondary)
+                                .font(.headline)
+                        })
+                    }
+                    
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            isAddNewStaffActive = true
+                        }, label: {
+                            Image(systemName: "bell.badge")
+                                .foregroundColor(.secondary)
+                                .font(.headline)
                         })
                     }
                 }
@@ -193,13 +202,12 @@ struct AnaSayfaSonIslemlerComponents: View {
                 Spacer()
                 Text(islemMaliyeti)
             }
-            .foregroundColor(.birincilRenk)
+            .foregroundColor(.primary)
             .fontWeight(.bold)
             .bold()
         }
     }
 }
-
 
 struct AnaSayfaOzetRaporlarComponents: View {
     
@@ -212,7 +220,7 @@ struct AnaSayfaOzetRaporlarComponents: View {
             Spacer()
             Text(raporMaliyeti)
         }
-        .foregroundColor(.birincilRenk)
+        .foregroundColor(.primary)
         .fontWeight(.bold)
         .bold()
     }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct IslemEkle: View {
+struct CalisanaIslemEkle: View {
     
     @State private var selectedArac = ""
     @State private var islemTarihi = Date()
@@ -39,11 +39,6 @@ struct IslemEkle: View {
                 }
                 
                 Section(header: SectionType(title: "İşlem Detayları")) {
-                    Picker("Araç Seçiniz *", selection: $selectedArac) {
-                        ForEach(araclar, id: \.self) { arac in
-                            Text(arac)
-                        }
-                    }
                     
                     DatePicker("Tarih *", selection: $islemTarihi, displayedComponents: [.date, .hourAndMinute])
                     
@@ -101,5 +96,5 @@ struct IslemEkle: View {
 }
 
 #Preview {
-    IslemEkle()
+    CalisanaIslemEkle()
 }

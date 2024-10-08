@@ -87,7 +87,7 @@ struct AracEkle: View {
                     }
                     
                     Button(action: {
-                        Text(" ")
+                        Text("")
                     }, label: {
                         Text("Aracı Ekle")
                             .fontWeight(.bold)

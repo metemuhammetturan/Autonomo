@@ -19,23 +19,25 @@ struct AracDetayIlkEkran: View {
         NavigationStack{
             Form{
                 Section(header: SectionType(title: "Özet Bilgiler")){
-                    AracDetayGenelBilgilerComponent(contentType: "Plaka", content: "81 S 0023")
-                    AracDetayGenelBilgilerComponent(contentType: "Kilometre", content: "112.450 km")
-                    AracDetayGenelBilgilerComponent(contentType: "Atanan Şoför", content: "Mete")
-                    AracDetayGenelBilgilerComponent(contentType: "Atanan Rota", content: "Salkım Orman Ürünleri")
+                    DetayBasliklarComponent(contentType: "Plaka", content: "81 S 0023")
+                    DetayBasliklarComponent(contentType: "Kilometre", content: "112.450 km")
+                    DetayBasliklarComponent(contentType: "Atanan Şoför", content: "Mete")
+                    DetayBasliklarComponent(contentType: "Atanan Rota", content: "Salkım Orman Ürünleri")
                 }
                 .listRowBackground(Color.clear)
                 
                 Section(header: SectionType(title: "Araç Detayları")){
                     NavigationLink(destination: AracDetayGenelBilgiler()){
-                        AracDetaySecimiComponent(title: "Genel Bilgiler", image: "chart.bar.xaxis")
+                        CreateDetayComponent(title: "Genel Bilgiler", image: "chart.bar.xaxis")
                         
                     }
-                    NavigationLink(destination: AracDetaySonTarihler()){
-                        AracDetaySecimiComponent(title: "Son Tarihler", image: "calendar")
-                    }
+                    
                     NavigationLink(destination: AracDetayIslemler()){
-                        AracDetaySecimiComponent(title: "İşlemler", image: "doc")
+                        CreateDetayComponent(title: "İşlemler", image: "doc.fill")
+                    }
+                    
+                    NavigationLink(destination: AracDetaySonTarihler()){
+                        CreateDetayComponent(title: "Son Tarihler", image: "calendar")
                     }
                 }
                 .listRowBackground(Color.clear)
@@ -63,7 +65,7 @@ struct AracDetayIlkEkran: View {
                 
                 
             }
-            .navigationTitle("81 S 0023")
+            .navigationTitle("Araç Detayları - Seçilen Plaka")
             .navigationBarTitleDisplayMode(.inline)
         }
         Spacer()
@@ -76,7 +78,7 @@ struct AracDetayIlkEkran: View {
 }
 
 
-struct AracDetaySecimiComponent: View {
+struct CreateDetayComponent: View {
     let title: String
     let image: String
     

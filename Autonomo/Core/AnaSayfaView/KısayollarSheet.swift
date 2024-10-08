@@ -28,7 +28,7 @@ struct KisayollarSheet: View {
                     .background(Color.primary)
                     .frame(height: 2)
                 
-                KisayollarComponents(title: "Çalışan Ekle", destination: AnyView(Text("Çalışan Ekle View")), image: "person.crop.circle")
+                KisayollarComponents(title: "Çalışan Ekle", destination: AnyView(CalisanEkle()), image: "person.crop.circle")
                 
                 Divider()
                     .background(Color.primary)

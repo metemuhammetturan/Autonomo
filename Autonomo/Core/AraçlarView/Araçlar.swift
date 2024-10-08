@@ -20,7 +20,10 @@ struct Araclar: View {
                 VStack{
                     // Özet bilgiler ve bul kısmı
                     Text("Araç Sayısı: 13")
-                        .padding(.top, 16) // Safe area üst padding
+                        .padding(.leading)
+                        .padding(.bottom)
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
                     
                     // Araçların sıralanması
                     ScrollView {
@@ -56,14 +59,11 @@ struct Araclar: View {
                 }
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
-                        NavigationLink(destination: AracEkle()) {
-                            Image(systemName: "plus.circle")
-                                .foregroundColor(.primary)
-                        }
+                        NavigationBarImage(image: "plus.circle", destination: AracEkle())
                     }
                     
                     ToolbarItem(placement: .navigationBarLeading){
-                        TabBarSayfalariBaslik(title: "Araçlar")
+                        NavigationBarBaslik(title: "Araçlar")
                     }
                 }
             
