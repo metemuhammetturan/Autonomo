@@ -20,6 +20,21 @@ struct ArkaPlan: View {
 
 
 /*
+    "Tüv-Türk Muayene"
+    "Egzoz Muayenesi"
+    "Koltuk Sigortası"
+    "Araç Sigortası"
+    "Trafik Sigortası"
+    "Kasko"
+ */
+
+/* Navigate edilen sayfada back butonun text'inin kaldırılması
+ 
+ .toolbarRole(.editor)
+ 
+ */
+
+/*
  
  Yakıt: fuelpump
  Sigorta: doc.text

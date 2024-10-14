@@ -19,7 +19,6 @@ struct SectionType: View {
     }
 }
 
-
 struct NavigationBarImage<Destination: View>: View {
     
     let image: String

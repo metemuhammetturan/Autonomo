@@ -51,7 +51,7 @@ struct MainTabView: View {
                 }
                 .tag(3)
             
-            Raporlar()
+            DetayliRaporlar()
                 .tabItem {
                     Label("Raporlar", systemImage: "chart.bar.xaxis")
                 }

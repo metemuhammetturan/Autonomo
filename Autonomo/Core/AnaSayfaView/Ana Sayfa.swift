@@ -55,7 +55,7 @@ struct AnaSayfa: View {
                                         Text("Araçlarınıza ait son 5 işlem")
                                             .font(.title2)
                                             .fontWeight(.heavy)
-                                            .foregroundColor(.birincilRenk)
+                                            .foregroundColor(.primary)
                                             .opacity(0.9)
                                     }
                                     
@@ -115,7 +115,7 @@ struct AnaSayfa: View {
                                         Text("Toplam Yakıt Giderleri")
                                             .font(.title2)
                                             .fontWeight(.heavy)
-                                            .foregroundColor(.birincilRenk)
+                                            .foregroundColor(.primary)
                                             .opacity(0.9)
                                     }
                                     
@@ -140,41 +140,38 @@ struct AnaSayfa: View {
                     .padding(.horizontal)
                     Spacer()
                 }
-                .navigationTitle("")
                 .toolbar{
+                    
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button(action: {
-
+                            
                         }, label: {
                             NavigationBarBaslik(title: "Ana Sayfa")
                         })
                     }
                     
                     ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: {
-                            isAddNewStaffActive = true
-                        }, label: {
-                            Image(systemName: "plus.circle")
-                                .foregroundColor(.secondary)
-                                .font(.headline)
-                        })
-                    }
-                    
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: {
-                            isAddNewStaffActive = true
-                        }, label: {
-                            Image(systemName: "bell.badge")
-                                .foregroundColor(.secondary)
-                                .font(.headline)
-                        })
+                        HStack(spacing: 0){
+                            Button(action: {
+                                isAddNewStaffActive = true
+                            }, label: {
+                                Image(systemName: "plus.circle")
+                                    .foregroundColor(.secondary)
+                            })
+                            
+                            Button(action: {
+                                isAddNewStaffActive = true
+                            }, label: {
+                                Image(systemName: "bell.badge")
+                                    .foregroundColor(.secondary)
+                            })
+                        }
                     }
                 }
                 .sheet(isPresented: $isAddNewStaffActive, content: {
                     KisayollarSheet()
                         .presentationDetents([.medium,.large])
                 })
-            
         }
     }
 }
@@ -203,8 +200,7 @@ struct AnaSayfaSonIslemlerComponents: View {
                 Text(islemMaliyeti)
             }
             .foregroundColor(.primary)
-            .fontWeight(.bold)
-            .bold()
+            
         }
     }
 }
@@ -221,8 +217,6 @@ struct AnaSayfaOzetRaporlarComponents: View {
             Text(raporMaliyeti)
         }
         .foregroundColor(.primary)
-        .fontWeight(.bold)
-        .bold()
     }
 }
 

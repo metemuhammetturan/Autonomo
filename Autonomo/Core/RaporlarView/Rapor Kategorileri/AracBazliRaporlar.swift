@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Bu ekranda araç bazlı rapor ekranı oluşturulacak. Bir araç raporunun içeriğinde yakıt raporları
+
 struct AracBazliRaporlar: View {
     var body: some View {
         Text("arac bazlı!")
