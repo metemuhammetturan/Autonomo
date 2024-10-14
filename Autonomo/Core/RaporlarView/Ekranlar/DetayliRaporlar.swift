@@ -13,7 +13,7 @@ struct DetayliRaporlar: View {
                 ScrollViewReader { proxy in
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 16) {
-                            ForEach(0..<5) { index in
+                            ForEach(0..<4) { index in
                                 TumRaporlarSecim(type: self.selectedTypeTitle(index), image: self.imageForType(index), isSelected: selectedType == index) {
                                     withAnimation {
                                         selectedType = index
@@ -39,7 +39,6 @@ struct DetayliRaporlar: View {
                     YakitRaporlariView().tag(1)
                     ArizaRaporlariView().tag(2)
                     YaklasanTarihler().tag(3)
-                    AracBazliRaporlar().tag(4)
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 .animation(.easeInOut, value: selectedType)
@@ -75,14 +74,13 @@ struct DetayliRaporlar: View {
         }
     }
     
-    // Seçilen türü göstermek için bir yardımcı fonksiyon
+    // Seçilen türü göstermek için bir yardımcı fonksiyonğ
     func selectedTypeTitle(_ index: Int) -> String {
         switch index {
         case 0: return "Toplam Giderler"
         case 1: return "Yakıt Raporları"
         case 2: return "Arıza Raporları"
         case 3: return "Yaklaşan Tarihler"
-        case 4: return "Araç Bazlı Raporlar"
         default: return ""
         }
     }
@@ -94,7 +92,6 @@ struct DetayliRaporlar: View {
         case 1: return "fuelpump.fill"
         case 2: return "exclamationmark.triangle"
         case 3: return "calendar.badge.exclamationmark"
-        case 4: return "car.circle.fill"
         default: return ""
         }
     }

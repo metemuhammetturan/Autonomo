@@ -15,7 +15,6 @@
 		922552722C568DA000728673 /* Butonlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526E2C568DA000728673 /* Butonlar.swift */; };
 		922552732C568DA000728673 /* Genel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9225526F2C568DA000728673 /* Genel.swift */; };
 		922552742C568DA000728673 /* Yazı Tipleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922552702C568DA000728673 /* Yazı Tipleri.swift */; };
-		9245CFBC2CB67A7F00B5B424 /* AracBazliRaporlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245CFB82CB67A7F00B5B424 /* AracBazliRaporlar.swift */; };
 		9245CFBE2CB67A7F00B5B424 /* ToplamGiderler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245CFBA2CB67A7F00B5B424 /* ToplamGiderler.swift */; };
 		9245CFBF2CB67A7F00B5B424 /* YaklasanTarihler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9245CFBB2CB67A7F00B5B424 /* YaklasanTarihler.swift */; };
 		924CBD402CA417110075F40A /* RotaOluştur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924CBD3F2CA417110075F40A /* RotaOluştur.swift */; };
@@ -51,7 +50,6 @@
 		9225526E2C568DA000728673 /* Butonlar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Butonlar.swift; sourceTree = "<group>"; };
 		9225526F2C568DA000728673 /* Genel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genel.swift; sourceTree = "<group>"; };
 		922552702C568DA000728673 /* Yazı Tipleri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Yazı Tipleri.swift"; sourceTree = "<group>"; };
-		9245CFB82CB67A7F00B5B424 /* AracBazliRaporlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AracBazliRaporlar.swift; sourceTree = "<group>"; };
 		9245CFBA2CB67A7F00B5B424 /* ToplamGiderler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToplamGiderler.swift; sourceTree = "<group>"; };
 		9245CFBB2CB67A7F00B5B424 /* YaklasanTarihler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaklasanTarihler.swift; sourceTree = "<group>"; };
 		924CBD3F2CA417110075F40A /* RotaOluştur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RotaOluştur.swift"; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				9294D2CF2C57DEDF00DEA119 /* AracEkle.swift */,
 				92FB13D32CA8115D00614BB3 /* Araç Detay */,
 			);
-			name = "AraçlarView";
 			path = "AraçlarView";
 			sourceTree = "<group>";
 		};
@@ -133,7 +130,6 @@
 				925EAA542C8475F5000BC695 /* CalisanEkle.swift */,
 				925FDB4B2CA2FDA100099618 /* Çalışan Detay */,
 			);
-			name = "ÇalışanlarView";
 			path = "ÇalışanlarView";
 			sourceTree = "<group>";
 		};
@@ -185,7 +181,6 @@
 				929545412CAD3A4200822829 /* YakitRaporlariView.swift */,
 				929545472CAD3A7E00822829 /* ArizaRaporlariView.swift */,
 				9245CFBB2CB67A7F00B5B424 /* YaklasanTarihler.swift */,
-				9245CFB82CB67A7F00B5B424 /* AracBazliRaporlar.swift */,
 			);
 			path = "Rapor Kategorileri";
 			sourceTree = "<group>";
@@ -211,9 +206,8 @@
 			children = (
 				92ADA9A92C568A28004F3384 /* App */,
 				922552712C568DA000728673 /* Set */,
-				92ADA9AC2C568A51004F3384 /* Model */,
-				92ADA9AB2C568A4C004F3384 /* Extensions */,
 				92ADA9AA2C568A35004F3384 /* Core */,
+				92ADA9AC2C568A51004F3384 /* Model */,
 				9211CEAE2CB53D9000287AC5 /* Drafts */,
 				92ADA9A12C5689F8004F3384 /* Preview Content */,
 			);
@@ -249,13 +243,6 @@
 				9225526B2C568D3E00728673 /* RaporlarView */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		92ADA9AB2C568A4C004F3384 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		92ADA9AC2C568A51004F3384 /* Model */ = {
@@ -373,7 +360,6 @@
 				922552652C568CFA00728673 /* Çalışanlar.swift in Sources */,
 				925EAA5C2C84A5C5000BC695 /* CalisanDetayKaydedilenIslemler.swift in Sources */,
 				922552732C568DA000728673 /* Genel.swift in Sources */,
-				9245CFBC2CB67A7F00B5B424 /* AracBazliRaporlar.swift in Sources */,
 				9245CFBE2CB67A7F00B5B424 /* ToplamGiderler.swift in Sources */,
 				9245CFBF2CB67A7F00B5B424 /* YaklasanTarihler.swift in Sources */,
 				92ADA99E2C5689F6004F3384 /* MainTabView.swift in Sources */,
